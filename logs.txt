@@ -1,0 +1,28 @@
+commit bb2a1633194d4ee1968c76a88e5d410fbfd0e41e (HEAD -> master, bug3)
+Author: Maja <majaargirova@yahoo.com>
+Date:   Thu Apr 6 23:12:24 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 51559dbef9c2f72d000cc590c7c5eac8670ab666 (origin/master)
+Merge: a780d4a f87dc9c
+Author: Maja <majaargirova@yahoo.com>
+Date:   Thu Apr 6 23:15:46 2023 +0200
+
+    Merge branch 'bug2'
+
+commit f87dc9c81c8d651c8e7f18855939ddf46f3f2698 (origin/bug2, bug2)
+Author: Maja <majaargirova@yahoo.com>
+Date:   Thu Apr 6 23:11:42 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit a780d4a685d6f434143346afae63d9270659bb01 (origin/bug1, bug1)
+Author: Maja <majaargirova@yahoo.com>
+Date:   Thu Apr 6 23:10:41 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 9236cd4a27698f5b74bcdf63bb6f0606ac7ee046
+Author: Maja <majaargirova@yahoo.com>
+Date:   Thu Apr 6 23:08:15 2023 +0200
