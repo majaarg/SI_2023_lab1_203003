@@ -1,0 +1,47 @@
+4. mkdir SI_2023_lab1_203003 -> креираме локален репозиториум
+   cd SI_2023_lab1_203003 -> влегуваме во директориумот
+   git init -> го иницијализираме Git во директориумот
+5. git remote add origin https://github.com/majaarg/SI_2023_lab1_203003 -> се поврзува локален репозитоориум со remote репозиториум
+6. notepad README.md -> креираме нова датотека
+   git add README.md -> ја додаваме 
+   git commit -m "Initial commit" -> правиме комит на датотеката со порака Initial commit
+7. notepad SILab1.java -> отвараме нова јава датотека
+   git add SILab1.java -> ја додаваме 
+   git commit -m "Add java class" -> правиме комит на датотеката на remote repo
+8. git pull -> ги синхронизираме промените
+   git push -u origin master -> ги додаваме промените на remote репозиториумот
+9. git branch bug1 -> креираме гранка со име bug1
+   git branch bug2 -> креираме гранка со име bug2
+   git branch bug3 -> креираме гранка со име bug3
+10. git checkout bug1 -> се префрламе на гранка bug1
+11. notepad SILab1.java -> ја отвараме датотеката SiLab1.java за да ја промениме грешката
+    git add SILab1.java -> ја додаваме 
+    git commit -m "Fix wrong loop for reading" -> ја комитнуваме променетата верзија на гранката bug1
+12. git checkout bug2 -> се префрламе на гранка bug2
+13. notepad SILab1.java -> ја отвараме датотеката SiLab1.java за да ја промениме грешката
+    git add SILab1.java -> ја додаваме 
+    git commit -m "Fix wrong condition in filterOddNumbers" -> ја комитнуваме променетата верзија на гранката bug2
+14. git checkout bug3 -> се префрламе на гранка bug3
+15. notepad SILab1.java -> ја отвараме датотеката SiLab1.java за да ја промениме грешката
+    git add SILab1.java -> ја додаваме 
+    git commit -m "Fix method sumEvenNumbers" -> ја комитнуваме променетата верзија на гранката bug3
+16. git pull -> се синхронизираат гранките со remote репозиториумот
+17. git checkout master -> се префрламе на гранка master
+18. git merge bug1 -> ја додаваме гранката bug1 на master 
+19. git pull -> се синхронизираат гранките со remote репозиториумот
+20. git merge bug2 -> ја додаваме гранката bug2 на master
+21. git pull -> се синхронизираат гранките со remote репозиториумот
+22. git checkout bug3 -> се префрламе на гранка bug3
+23. git fetch -> за синхронизација
+    git rebase master -> правиме rebase на bug3 кон master
+24. git checkout master -> се префрламе на гранка master
+    git push
+25. git merge bug3 -> се спојува гранката bug3 со master 
+26. git pull -> се синхронизираат гранките со remote репозиториумот
+27. git log -> за да ги добиеме сите промени кои се направени, историја на активности
+    notepad logs.txt -> креираме датотеката за логовите
+    git add logs.txt -> ја додаваме 
+    git commit -m "Add logs.txt" -> ја комитнуваме датотеката со логовите на remote репозиториумот
+    git add 203003.txt -> ја додаваме
+    git commit -m "Final commit" -> правиме комит на дадотеката 203003.txt на remote repo
+28. git pull -> се прави синхронизација на сите гранки
